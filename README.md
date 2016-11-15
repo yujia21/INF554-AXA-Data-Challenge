@@ -1,8 +1,20 @@
 # INF554Projet
 
-1. Download dataset train_2011_2012_2013.csv
-2. In Preprocessing.py, change imported_data to False.
-3. Run Preprocessing.py. Numpy arrays are created for each service in data/...
-4. Change imported_data to True.
-5. Under # Beginning of learning code, numpy arrays are re-imported into a dictionary. 
-When writing a machine learning algorithm, we can just copy this part once the data/... is created.
+Due to space constraints, train_2011_2012_2013.csv and data/... files are not included.
+
+# Bootstrap.py : 
+This is the base file for writing the predict functions. (Line 40)
+
+There are three options to play with on line 9 : 
+
+  # imported_data=True 
+  True if data/... already exists
+  If False, will run ImportData.py, which takes train_2011_2012_2013.csv and creates data/...
+  
+  # evaluation=True 
+  True if want to evaluate error of machine learning algo. Can change the dates called
+  # TODO: add Frapy's evaluation function
+  
+  # submit=True 
+  True if we want to create a submission file with new prediction values. 
+  Dates predicted are always the dates provided in the original submission.txt file
