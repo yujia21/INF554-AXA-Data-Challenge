@@ -1,3 +1,4 @@
-Ave + Std / 2
-test : 1550620981380.7
-cross val : 1112138.872 
+Gradient boost
+test 2011: 383.355640929
+test on full : 227396.826064
+369212573.19278
